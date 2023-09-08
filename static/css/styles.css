@@ -1,0 +1,109 @@
+/* Estilos generales */
+*{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: oblique;
+}
+
+body {
+  background-color: #ffe1e1;
+}
+  
+.container {
+  max-width: 55%;
+  margin: 0 auto ;
+  padding: 20px 40px 0px 0px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  margin-top: 160px;
+}
+
+.div{
+  padding: 20px;
+}
+  
+.h2 {
+  text-align: center;
+  border-right: 1px solid #b2b0b0;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  padding-top: 75px;
+}
+  
+/* Estilos del formulario */
+form {
+  margin-bottom: 20px;
+}
+  
+input[type="number"],
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 15px;
+  background-color: #efefef;
+}
+  
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #f3adff;
+  color: #030303;
+  border: 1px solid #f3adff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+button:hover{
+  background-color: #ffa9e5;
+  border: 1px solid rgb(185, 184, 184);
+}
+  
+/* Estilos del resultado */
+.containerResult{
+  max-width: 300px;
+  margin: 0 auto ;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.1);
+  margin-top: 160px;
+}
+
+.result {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.h2Result {
+  margin: 20px;
+}
+
+p {
+  font-size: 18px;
+}
+  
+a {
+  display: block;
+  width: 95%;
+  padding: 10px;
+  background-color: #f3adff;
+  color: #030303;
+  border: 1px solid #f3adff;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  font-style: oblique;
+}
+
+a:hover {
+  background-color: #ffa9e5;
+  border: 1px solid rgb(185, 184, 184)
+}

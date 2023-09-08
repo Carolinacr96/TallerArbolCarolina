@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head> 
+  <title>Predicción de etiqueta</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+  <div >
+    <form class="container" action="/predict" method="post">
+      <h2 class="h2">Predicción de etiqueta</h2><br>
+      <div class="div">
+        <input placeholder="Nitrógeno en suelo (N)" type="number" name="N" id="N" step="0.1" min="0.0" required><br><br>
+        <input placeholder="Fósforo en suelo (P)" type="number" name="P" id="P" step="0.1" min="0.0" required><br><br>
+        <input placeholder="Potasio en suelo (K)" type="number" name="K" id="K" step="0.1" min="0.0" required><br><br>
+        <input placeholder="Temperatura (°C)" type="number" name="Temp" id="Temp" step="0.1" min="0.0" required><br><br>
+      </div>
+      <div class="div">
+        <input placeholder="Humedad (%)" type="number" name="Hum" id="Hum" step="0.1" min="0.0" required><br><br>
+        <input placeholder="PH del suelo" type="number" name="PH" id="PH" step="0.1" min="0.0" required><br><br>
+        <input placeholder="Precipitación (mm)" type="number" name="Preci" id="Preci" step="0.1" min="0.0" required><br><br>
+        <button type="submit"><strong>Ver predicción</strong></button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>

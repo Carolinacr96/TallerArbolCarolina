@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Predicción de etiqueta</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+  <div class="containerResult">
+    <div class="result">
+      <h2 class="h2Result">Resultado:</h2>
+      <p>{{ pred | safe }}</p>
+    </div>
+    <a href="/" ><strong>Realizar otra predicción</strong></a>
+  </div>
+</body>
+</html>
